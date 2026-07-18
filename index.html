@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Achadinhos da Casa 💡 — todos os produtos</title>
+<style>
+  :root {
+    --fundo: #faf6f1;
+    --card: #ffffff;
+    --texto: #2b2320;
+    --suave: #8a7d74;
+    --destaque: #e8890c;
+    --destaque-escuro: #c26f00;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--fundo);
+    color: var(--texto);
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 24px 16px 40px;
+  }
+  header { text-align: center; margin-bottom: 20px; }
+  .avatar {
+    width: 72px; height: 72px; border-radius: 50%;
+    background: linear-gradient(135deg, #7c3aed, #06b6d4);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 34px; margin: 0 auto 10px;
+  }
+  h1 { font-size: 22px; }
+  .arroba { color: var(--suave); font-size: 14px; margin-top: 2px; }
+  .slogan { font-size: 15px; margin-top: 8px; }
+  .publi {
+    font-size: 12px; color: var(--suave); margin-top: 10px;
+    background: #f1e9e0; border-radius: 8px; padding: 8px 10px;
+  }
+  .produto {
+    display: flex; align-items: center; gap: 12px;
+    background: var(--card); border-radius: 14px;
+    padding: 12px; margin-top: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  }
+  .produto img {
+    width: 84px; height: 84px; object-fit: cover;
+    border-radius: 10px; flex-shrink: 0;
+  }
+  .info { flex: 1; min-width: 0; }
+  .nome { font-size: 15px; font-weight: 700; line-height: 1.25; }
+  .meta { font-size: 12.5px; color: var(--suave); margin-top: 4px; }
+  .preco { font-size: 14px; font-weight: 700; color: var(--destaque-escuro); margin-top: 4px; }
+  .botao {
+    display: block; text-align: center; text-decoration: none;
+    background: var(--destaque); color: #fff; font-weight: 700;
+    font-size: 14px; border-radius: 10px; padding: 10px 12px;
+    margin-top: 8px;
+  }
+  .botao:active { background: var(--destaque-escuro); }
+  .novo {
+    display: inline-block; background: #16a34a; color: #fff;
+    font-size: 11px; font-weight: 700; border-radius: 6px;
+    padding: 2px 7px; margin-bottom: 4px;
+  }
+  footer {
+    text-align: center; font-size: 11.5px; color: var(--suave);
+    margin-top: 28px; line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="avatar">💡</div>
+    <h1>Achadinhos da Casa</h1>
+    <div class="arroba">@01.achadinhosdacasa · TikTok &amp; Instagram</div>
+    <p class="slogan">Sua casa mais prática gastando pouco — todos os produtos dos vídeos num lugar só 👇</p>
+    <p class="publi">#publi — recebo comissão por compras feitas pelos links desta página.</p>
+  </header>
+
+  <!-- ===== PRODUTOS (o mais novo sempre em cima) ===== -->
+
+  <div class="produto">
+    <img src="fotos/porta-temperos.jpg" alt="Porta temperos giratório preto com 12 potes de vidro">
+    <div class="info">
+      <span class="novo">NOVO</span>
+      <div class="nome">🌶️ Porta Temperos Giratório — 12 potes de vidro</div>
+      <div class="meta">4,6⭐ (544) · 1º mais vendido · +1 mil compras/mês</div>
+      <div class="preco">menos de R$ 40*</div>
+      <a class="botao" href="https://link.amazon/B02pbNk0J" target="_blank" rel="noopener sponsored">Ver na Amazon 🛒</a>
+    </div>
+  </div>
+
+  <!-- ===== FIM DOS PRODUTOS ===== -->
+
+  <footer>
+    *Preços conferidos na data em que cada produto entrou na página — podem
+    mudar a qualquer momento; o valor certo é o do site da loja.<br><br>
+    Como Associado da Amazon, recebo por compras qualificadas.<br>
+    Os vídeos deste perfil usam conteúdo gerado por IA (sempre sinalizado).
+  </footer>
+</body>
+</html>
